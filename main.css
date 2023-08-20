@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+}
+
+body{
+    background: #010109;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 2em;
+    color:blueviolet;
+    pointer-events: none;
+
+}
+
+.navigation a{
+    text-decoration: none;
+    color:blueviolet;
+    padding: 4px 15px;
+    border-radius: 20px;
+    margin: 0 45px;
+    font-weight: 600;
+}
+
+.navigation a:hover,
+.navigation a.active{
+    background: blueviolet;
+    color:#f9f9f9;
+}
+
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text{
+    position: absolute;
+    font-size: 5em;
+    color: #333333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
+}
+
+/*.parallax img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}*/
+
+#prl1{
+    position: absolute;
+    width: 50%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.parallax #prl2, #prl3, #prl4, #prl5,#prl6, #prl7, #prl8, #prl9, #prl10, #prl11, #prl12{
+    width: 10%;
+    position: relative;
+    display: grid;
+}
+
+#prl2{
+    top:0;
+    position: relative;
+    columns: unset;
+    gap:inherit;
+    
+}
+
+.sec{
+    position: relative;
+    background: #003;
+    padding: 100px;
+}
+
+.sec h2{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.sec p{
+    font-size: 1em;
+    color: #fff;
+    font-weight: 300;
+}
+
