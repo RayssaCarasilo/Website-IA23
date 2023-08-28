@@ -5,7 +5,7 @@
 }
 
 body{
-    background: #010109;
+    background: #2b2b38;
     min-height: 100vh;
     overflow-x: hidden;
 }
@@ -13,34 +13,36 @@ body{
 header{
     position: absolute;
     top: 0;
-    left: 0;
+    left: 5%;
     width: 100%;
-    padding: 30px;
+    padding: 10px 20px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background-color: #2b2b38;
 }
 
 .logo{
-    font-size: 2em;
-    color:blueviolet;
+    font-size: 3em;
+    color:rgb(118, 118, 153);
     pointer-events: none;
 
 }
 
 .navigation a{
     text-decoration: none;
-    color:blueviolet;
+    color:rgb(222, 222, 230);
     padding: 4px 15px;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 0 45px;
     font-weight: 600;
+    font-size: 1.3em;
 }
 
 .navigation a:hover,
 .navigation a.active{
-    background: blueviolet;
+    background: rgb(106, 106, 138);
     color:#f9f9f9;
 }
 
@@ -61,7 +63,7 @@ header{
 
 .parallax img{
     position: absolute;
-    top: 0;
+    top: 3%;
     left: 0;
     width: 100%;
     pointer-events: none;
@@ -69,12 +71,13 @@ header{
 
 .sec{
     position: relative;
-    background: #003;
-    padding: 100px;
+    background: rgb(7, 7, 41);
+    padding:  40px 100px;
 }
 
 .sec h2{
     font-size: 3em;
+    padding: 10px;
     color: #fff;
     margin-bottom: 10px;
 }
@@ -85,3 +88,82 @@ header{
     font-weight: 300;
 }
 
+.ter{
+    position: relative;
+    background: rgb(53, 60, 85);
+    padding:  40px 100px;
+}
+
+.ter h3{
+    font-size: 3em;
+    padding: 0 10px 20px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: space-between;
+}
+
+.quizimg1{
+    overflow: hidden; 
+    cursor: pointer;
+}
+
+.quizimg1{
+    max-width: 40%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.quizimg1:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.quizimg2{
+    overflow: hidden; 
+    cursor: pointer;
+}
+
+.quizimg2{
+    max-width: 40%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.quizimg2:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#subtitle{
+    position: absolute;
+    left: 66%;
+    top: 75%;
+    color: #fff;
+    font-size: 2em;
+    text-shadow: 2px 2px #11171d91;
+    cursor: pointer;
+}
+
+#title{
+    position: absolute;
+    left: 25%;
+    top: 75%;
+    color: #eae6ff;
+    font-size: 2em;
+    text-shadow: 2px 2px #11171d91;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+#title:hover{
+    transform: scale(1.1);
+}
