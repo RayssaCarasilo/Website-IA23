@@ -13,7 +13,7 @@ const elErradasFinish = elContadorFinish.querySelector(".erradas")
 const questionNumberSpan = document.querySelector(".current-question");
 
 async function main() {
-  const requisicao = await fetch("quizeras.json")
+  const requisicao = await fetch("quiz.json")
   const quiz = await requisicao.json()
   
   let nCorretas = 0
@@ -61,21 +61,3 @@ async function main() {
 }
 
 main()
-
-const modal = document.querySelector('.modal')
-const close = modal.querySelector('.close')
-const open = document.querySelector('button')
-
-open.addEventListener('click', () => {
-  modal.classList.add("opened")
-})
-
-close.addEventListener('click', () => {
-  modal.classList.remove("opened")
-})
-
-modal.addEventListener('click', (evt) => {
-  if (evt.target.classList.contains("modal")) {
-    modal.classList.remove("opened")
-  }
-})

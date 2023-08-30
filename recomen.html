@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <title>Recomendações</title>
+</head>
+<body>
+    </head>
+    <body>
+        <section>
+            <img class="rec" src="tprlx/rec.jpg">
+        </section>
+      <button id="modal">Aparece MODAL!</button>
+      <div class="modal">
+        <div class="window">
+          <button class="close">X</button>
+          <div class="content">
+            <h1>Modal</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2nHAqtDys1AzVZSAdwEz6X?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+          <div class="actions">
+            <button>salvar</button>
+          </div>
+        </div>
+      </div>
+      <script>
+        const modal = document.querySelector('.modal')
+        const close = modal.querySelector('.close')
+        const open = document.querySelector('button')
+    
+        open.addEventListener('click', () => {
+          modal.classList.add("opened")
+        })
+    
+        close.addEventListener('click', () => {
+          modal.classList.remove("opened")
+        })
+    
+        modal.addEventListener('click', (evt) => {
+          if (evt.target.classList.contains("modal")) {
+            modal.classList.remove("opened")
+          }
+        })
+      </script>
+    
+</body>
+</html>

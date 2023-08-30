@@ -1,0 +1,33 @@
+[
+    {
+      "pergunta": "Qual foi o primeiro albúm da Taylor?",
+      "correta": 2,
+      "alternativas": ["Fearless", "Speak Now", "Taylor Swift", "Flolklore", "Midnights"]
+    },
+    {
+      "pergunta": "Quantos albúns Taylor na sua carreira?",
+      "correta": 0,
+      "alternativas": ["10", "20", "13", "5", "17", "11","9","17","22","15","12"]
+    },
+    {
+      "pergunta": "Em que ano ela lançou Reputation?",
+      "correta": 1,
+      "alternativas": ["2000", "2017","2010", "2009", "2022", "2021"]
+    },
+    {
+      "pergunta": "Qual albúm foi dedicado ao Joe Alwin?",
+      "correta": 5,
+      "alternativas": ["Folklore", "1989", "Reputation", "Midnights", "Evermore", "Lover"]
+    },
+    {
+      "pergunta": "Em qual albúm ela lançou 'Cardigan?'",
+      "correta": 0,
+      "alternativas": ["Folklore","Evermore","Lover","Mignights", "Taylor Swift"]
+    },
+    {
+      "pergunta": "Qual música foi feita para a Katy Perry?",
+      "correta": 1,
+      "alternativas":["Love Story","Bad Blood","Delicate","Dear John","Betty", "Willow"]
+    }
+  ]
+  
