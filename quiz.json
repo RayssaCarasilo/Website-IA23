@@ -1,0 +1,32 @@
+[
+  {
+    "pergunta": "Qual foi o primeiro albúm da Taylor?",
+    "correta": 3,
+    "alternativas": ["Midnights", "Lover", "Fearless", "Taylor Swift", 19, 20, 21, 22, 23, 24]
+  },
+  {
+    "pergunta": "Qual a cor favorita da 'Rayssa'?",
+    "correta": 0,
+    "alternativas": ["Roxo", "Rosa", "Laranja", "Azul", "Amarelo", "Vermelho"]
+  },
+  {
+    "pergunta": "De onde 'Rayssa' é?",
+    "correta": 2,
+    "alternativas": ["Sorocaba", "Camboriú","Barueri", "Balneário Camboriú", "Santos", "Rio de Janeiro"]
+  },
+  {
+    "pergunta": "Qual o dia do aniversário da 'Rayssa'?",
+    "correta": 5,
+    "alternativas": [12, 11, 14, 15, 16, 23, 27, 22, 9, 8]
+  },
+  {
+    "pergunta": "Qual é o curso da 'Rayssa'?",
+    "correta": 0,
+    "alternativas": ["Informática","Controle Ambiental","Agropecuária","Hospedagem"]
+  },
+  {
+    "pergunta": "Qual é a matéria favorita da 'Rayssa'?",
+    "correta": 1,
+    "alternativas":["instalação Elétrica","Web Design","Hardware","Lógica de Progamação","Fundamentos da Informática"]
+  }
+]
