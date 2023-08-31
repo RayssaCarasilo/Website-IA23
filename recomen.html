@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
+    <title>Recomendações</title>
+</head>
+<body>
+    </head>
+    <body id="bodyr">
+      <header class="header">
+        <h2 class="logor">Logo</h2>
+        <nav class="navigationr">
+            <a href="index.html">Home</a>
+            <a href="about.html">Biografia</a>
+            <a class="active" href="recomen.html">Recomendações</a>
+            <a href="creators.html">Criadoras</a>
+        </nav>
+      </header>
+
+      <main class="mainc">
+        <h1>Ouça nossa playlist feita para vc!</h1>
+      <div class="contentr">
+        <section>
+            <img class="rec" src="tprlx/rec.jpg">
+        </section>
+
+        <button id="modal">Clique aqui<br></br>E confira</button>
+      <div class="modal">
+        <div class="window">
+          <button class="close">X</button>
+          <div class="content">
+            <h1>Playlist</h1>
+            <p>Ouça quantas vezes quiser, playlist feita com amor!S2</p>
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/2nHAqtDys1AzVZSAdwEz6X?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+          </div>
+          <div class="actions">
+            <button></button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p class="fa">Feito com amor S2.</p>  
+      <p class="tr"> - Todos os direitos Reservados - 2023</p>
+  </footer>
+      <script>
+        const modal = document.querySelector('.modal')
+        const close = modal.querySelector('.close')
+        const open = document.querySelector('button')
+    
+        open.addEventListener('click', () => {
+          modal.classList.add("opened")
+        })
+    
+        close.addEventListener('click', () => {
+          modal.classList.remove("opened")
+        })
+    
+        modal.addEventListener('click', (evt) => {
+          if (evt.target.classList.contains("modal")) {
+            modal.classList.remove("opened")
+          }
+        })
+      </script>
+    
+</body>
+</html>

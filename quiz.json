@@ -1,0 +1,34 @@
+{
+  "perguntas": [
+  {
+    "pergunta": "Qual foi o primeiro albúm da Taylor?",
+    "correta": 3,
+    "alternativas": ["Midnights", "Lover", "Fearless", "Taylor Swift", "Folklore"]
+  },
+  {
+    "pergunta": "Qual foi o albúm dedicado ao Joe Alwin?",
+    "correta": 0,
+    "alternativas": ["Lover", "Fearless", "Speak Now", "Evermore", "Midnights", "Taylor Swift"]
+  },
+  {
+    "pergunta": "Qual era é marcada por se passar em Nova York?",
+    "correta": 2,
+    "alternativas": ["Midnights", "Speak Now","1989", "Evermore", "Reputation", "Lover"]
+  },
+  {
+    "pergunta": "A faixa Cruel Summer faz parte de qual era?",
+    "correta": 5,
+    "alternativas": ["Taylor Swift", "Fearless", "1989", "Red", "Reputation"]
+  },
+  {
+    "pergunta": "Qual era foi marcada por ser a qual taylor começou a ser uma artista pop?",
+    "correta": 0,
+    "alternativas": ["1989","Speak Now","Folklore","Evermore","Red","Lover"]
+  },
+  {
+    "pergunta": "Qual será seu próximo Taylor's Version?",
+    "correta": 1,
+    "alternativas":["Midnights","1989","Taylor Swift","Reputation","Fearless"]
+  }
+ ] 
+}
