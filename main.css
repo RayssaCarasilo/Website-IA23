@@ -21,31 +21,35 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background-color:#16151d;
 }
 
 .logo{
-    font-size: 2em;
-    color:blueviolet;
+    font-size: 3em;
+    color:rgb(159, 149, 196);
     pointer-events: none;
 
 }
 
 .navigation a{
     text-decoration: none;
-    color:blueviolet;
+    color:rgb(69, 65, 82);
     padding: 4px 15px;
     border-radius: 20px;
     margin: 0 45px;
     font-weight: 600;
+    font-size: 1.5em;
+    background-color:#16151d;
 }
 
 .navigation a:hover,
 .navigation a.active{
-    background: blueviolet;
+    background: rgb(54, 41, 66);
     color:#f9f9f9;
 }
 
 .parallax{
+    margin-top: 25%;
     position: relative;
     display: flex;
     justify-content: center;
@@ -60,36 +64,6 @@ header{
     text-shadow: 2px 2px 4px rgba(0, 0, 0, .2);
 }
 
-/*.parallax img{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    pointer-events: none;
-}*/
-
-#prl1{
-    position: absolute;
-    width: 50%;
-    top: 0;
-    left: 0;
-    justify-content: center;
-    align-items: center;
-}
-
-.parallax #prl2, #prl3, #prl4, #prl5,#prl6, #prl7, #prl8, #prl9, #prl10, #prl11, #prl12{
-    width: 10%;
-    position: relative;
-    display: grid;
-}
-
-#prl2{
-    top:0;
-    position: relative;
-    columns: unset;
-    gap:inherit;
-    
-}
 
 .sec{
     position: relative;
